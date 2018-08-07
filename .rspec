@@ -1,0 +1,6 @@
+--require spec_helper
+
+--color
+
+--format NyanCatFormatter
+--format NyanCatMusicFormatter

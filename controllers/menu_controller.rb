@@ -1,5 +1,4 @@
 require_relative '../models/address_book'
-
 class MenuController
   attr_reader :address_book
 

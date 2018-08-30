@@ -1,5 +1,6 @@
 require_relative '../models/entry'
 
+
  RSpec.describe Entry do
    describe "attributes" do
      #DRY-helper method, instead create an entry variable once

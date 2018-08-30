@@ -1,6 +1,5 @@
 require_relative 'entry'
-require "csv"
-
+require 'csv'
 class AddressBook
   attr_reader :entries
 

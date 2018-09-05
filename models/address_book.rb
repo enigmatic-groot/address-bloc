@@ -1,10 +1,15 @@
 require_relative 'entry'
 require "csv"
 
+
 class AddressBook
   attr_reader :entries
 
   def initialize
+    @entries = []
+  end
+
+  def eviscerate
     @entries = []
   end
 
